@@ -1,0 +1,12 @@
+.parent{
+  padding: 25px;
+  background-color: blanchedalmond;
+}
+.child{
+  border: 2px solid salmon;
+   background-color: aquamarine;
+   padding: 25px;
+   font-size: 18px;
+   margin:10px ;
+   
+  }
