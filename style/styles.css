@@ -3,9 +3,18 @@
   background-color: blanchedalmond;
   display: flex;
   gap: 30px;
+  /* margin: 10px; */
   /* justify-content: start; */
-  justify-content: center;
+  /* justify-content: center; */
   /* justify-content: end; */
+  /* justify-content: space-around; */
+  /* justify-content: space-evenly; */
+  justify-content: space-between;
+  height: 350px;
+  /* align-items: flex-start; */
+  align-items: center;
+  flex-direction: column;
+  flex-direction: row-reverse;
 }
 
 
@@ -22,4 +31,23 @@
    /* margin:10px ; */
    display: inline;
    
+  }
+  .formet{
+    /* padding: 25px; */
+  background-color: blanchedalmond;
+  display:flex;
+  gap: 30px;
+  justify-content: space-between;
+  height: 350px;
+  align-items: center;
+  flex-wrap: wrap;
+ 
+  }
+  .blog{
+    border: 2px solid salmon;
+    background-color: aquamarine;
+    padding: 25px;
+    font-size: 18px;
+    display: inline;
+    
   }
